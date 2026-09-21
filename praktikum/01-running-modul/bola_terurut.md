@@ -6,6 +6,6 @@ Algoritma Bola Terurut
 4. Ulangi sampai ketiga bola terambil semua
 5. pastikan angka di kegita bola tersebut(contoh: 8, 3, 14)
 6. Urutkan bola bola itu dari kiri ke kanan di atas meja(contoh: 14, 3, 8)
-7. Jika bola yang ada di sebelah kanan lebih kecil dari bola yang ada di kanan, pindahkan bola tersebut ke sebalah kiri bola kanan
+7. Jika angka bola yang ada di sebelah kanan lebih kecil dari angka bola yang ada di kiri, pindahkan bola tersebut ke sebalah kirinya bola dengan angka yang lebih besar
 8. Ulangin perkondisian ini sampai bola terurut dengan benar
 9. Hasil (3, 8, 14)
