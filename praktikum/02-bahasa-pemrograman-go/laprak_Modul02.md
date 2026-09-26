@@ -298,7 +298,7 @@ func main() {
 ```
 
 ##### Output
-![Screenshot Output Unguided](unguided/[nama_soal]/output.png)
+![Screenshot Output Unguided](https://github.com/Firas14613/alpro-11-01/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/kalkulator/output.png)
 
 #### Deskripsi
 Program menghitung pecahan uang yang di butuhkan dari nominal rupiah. Menentukan beberapa jumlah lembar pecahan uang sesedikit mungkin dari Rp.10000, Rp.5000, Rp.1000. Menggunakan operasi `/` untuk menentukan jumlah lembar setiap pecahan dan `%` untuk mendapatkan sisa dari pembagian.
