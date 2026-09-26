@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+
 func main() {
 	const phi float64 = 3.14
 	var jari float64
