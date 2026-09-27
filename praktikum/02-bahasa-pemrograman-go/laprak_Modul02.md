@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul [Nomor Modul] - [Judul Modul/Topik]</h1>
+# <h1 align="center">Laporan Praktikum Modul 2 - Pemrograman Bahasa Go</h1>
 <p align="center">Firas Abdurrahman Sandro - 109092600009</p>
 
 ## Dasar Teori
