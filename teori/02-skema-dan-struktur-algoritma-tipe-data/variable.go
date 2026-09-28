@@ -18,12 +18,15 @@ func main() {
 	// fmt.Println(nama)
 	// gunakan ":=" untuk cara yang lebih simple, jadi "var" tidak wajib untuk di tulis. ":" Ini deklarasi awal, jadi hanya perlu di ketik sekali saja
 
+	// nama := 17
+	// fmt.Println(nama)
+	// akan error jika di ubah nilainya
+
 	var (
 		firstNama = "Firas"
-		lastName = "Abdurrahman Sandro"
+		lastName  = "Abdurrahman Sandro"
 	)
 
 	fmt.Println(firstNama, lastName)
 	// variable bisa di tulis langsung banyak seperti ini. jadi tidak perlu mengerik satu persatu
 }
-
