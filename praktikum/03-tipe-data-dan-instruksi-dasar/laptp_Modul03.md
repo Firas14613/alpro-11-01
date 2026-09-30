@@ -19,11 +19,11 @@ func main() {
 
 ##### Output
 <!-- Path relatif dari readme.md ke folder unguided/[nama_soal]/output.png, contoh: -->
-![Screenshot Output Unguided](https://github.com/renwxyz/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instriksi-dasar/tp/sisa/output.png)
+![Screenshot Output Unguided](https://github.com/Firas14613/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instruksi-dasar/tp/sisa/output.png)
 
 
 #### Deskripsi
-Program untuk menghitung berapa banyak sisa kue setelah dibagi kepada seluruh anggota keluarga.
+Program untuk menghitung berapa banyak sisa kue setelah dibagi kepada seluruh anggota keluarga. Dengan input `x` untuk jumlah keluarga dan `y` untuk jumlah kue.
 
 ### 2. bool.go
 
@@ -42,7 +42,7 @@ func main() {
 
 ##### Output
 <!-- Path relatif dari readme.md ke folder unguided/[nama_soal]/output.png, contoh: -->
-![Screenshot Output Unguided](https://github.com/renwxyz/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instriksi-dasar/tp/konversi/output.png)
+![Screenshot Output Unguided](https://github.com/Firas14613/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instruksi-dasar/tp/bool/output.png)
 
 
 #### Deskripsi
@@ -66,7 +66,7 @@ func main() {
 
 ##### Output
 <!-- Path relatif dari readme.md ke folder unguided/[nama_soal]/output.png, contoh: -->
-![Screenshot Output Unguided](https://github.com/renwxyz/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instriksi-dasar/tp/konversi/output.png)
+![Screenshot Output Unguided](https://github.com/Firas14613/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instruksi-dasar/tp/konversi/output.png)
 
 
 #### Deskripsi
