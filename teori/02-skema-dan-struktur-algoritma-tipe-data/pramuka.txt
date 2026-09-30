@@ -1,0 +1,7 @@
+#6 Pramuka
+
+1. Pastikan jumlah anggota sebanyak N.   
+2. Ulangi pengecekan sebanyak N untuk setiap anggota.
+3. Mengecek kelengkapan masing-masing per anggota, yang meliputi topi, ikat pinggang, alat tulis, tali, dan pisau pramuka.   
+4. Jika semua anggota memiliki perlengkapan lengkap, maka laporkan kepada pembina "Persiapan tim lengkap".   
+5. Jika tidak lengkap, maka laporkan kepada pembina "Persiapan tim tidak lengkap".

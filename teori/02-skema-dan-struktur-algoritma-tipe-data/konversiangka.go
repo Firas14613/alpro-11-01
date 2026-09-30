@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var angka int	
+	var angka int
 
 	for {
 		fmt.Scanln(&angka)
@@ -20,7 +20,6 @@ func main() {
 		break
 	}
 }
-
 
 // program 3 digit
 // kamus
