@@ -10,3 +10,16 @@ func main() {
 	check = x >= 'A' && x <= 'Z'
 	fmt.Println(check)
 }
+
+
+/*
+program kapital
+kamus
+	x : char
+	check : boolean
+algoritma
+	input (x)
+	check := x >= 'A' and x <= 'Z'
+	output (check)
+endprogram
+*/
