@@ -12,5 +12,8 @@ func main () {
 	sisaBulan := sisaTahun % 30
 	minggu := sisaBulan / 7
 	hari = sisaBulan % 7
-	fmt.Println(tahun, "tahun", bulan, "bulan", minggu, "minggu", hari, "hari")
+	fmt.Println(tahun)
+	fmt.Println(bulan)
+	fmt.Println(minggu)
+	fmt.Println(hari)
 }
