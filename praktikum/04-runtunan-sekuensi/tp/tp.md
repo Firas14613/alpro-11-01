@@ -132,3 +132,68 @@ func main() {
 
 Buatlah program dalam bahasa Go yang meminta input berupa tahun dan tiga huruf pertama dari nama bulan (dengan huruf pertama kapital) dari pengguna. Program kemudian menampilkan jumlah hari dalam bulan tersebut. Jika input nama bulan tidak valid, tampilkan pesan kesalahan seperti pada contoh.
 
+Nama bulan yang valid: Jan Feb Mar Apr Mei Jun Jul Agu Sep Okt Nov Des
+Catatan: pertimbangkan tahun kabisat (bulan Februari memiliki 29 hari pada tahun kabisat).
+
+Code:
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var tahun int
+	var bulan string
+	var tahunKabisat bool
+
+	fmt.Scanln(&tahun)
+	fmt.Scanln(&bulan)
+	tahunKabisat = tahun%4 == 0 && (tahun%100 != 0 || tahun%400 == 0)
+
+	if bulan == "Jan" || bulan == "Mar" || bulan == "Mei" || bulan == "Jul" || bulan == "Agu" || bulan == "Okt" || bulan == "Des" {
+		fmt.Println(31)
+	} else if bulan == "Apr" || bulan == "Jun" || bulan == "Sep" || bulan == "Nov" {
+		fmt.Println(30)
+	} else if bulan == "Feb" {
+		if tahunKabisat {
+			fmt.Println(29)
+		} else {
+			fmt.Println(28)
+		}
+	} else {
+		fmt.Println("-")
+	}
+}
+```
+
+### Soal 4 Switch Case
+Buatlah satu contoh program dalam bahasa Go yang menerapkan switch case.
+
+Code:
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var nilaiMtk, nilaiBhsIng int
+
+	fmt.Print("Masukkan nilai Matematika: ")
+	fmt.Scan(&nilaiMtk)
+	fmt.Print("Masukkan nilai Bahasa Inggris: ")
+	fmt.Scan(&nilaiBhsIng)
+	rataRata := (nilaiMtk + nilaiBhsIng) / 2
+	fmt.Println(rataRata)
+
+	switch {
+		case rataRata >= 90:
+			fmt.Println("A")
+		case rataRata >= 80:
+			fmt.Println("B")
+		case rataRata >= 70:
+			fmt.Println("C")
+		default:
+			fmt.Println("D")
+	}
+}
+```
