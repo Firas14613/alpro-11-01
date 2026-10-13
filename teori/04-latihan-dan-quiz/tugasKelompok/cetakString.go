@@ -13,3 +13,20 @@ func main () {
 		fmt.Println(str)
 	}
 }
+
+
+//program cetakString
+//kamus
+//    n, i : integer
+//    str : string
+
+//algoritma
+//    input(n)
+//    input(str)
+
+//    i <- 0
+//    while i < n do
+//        output(str)
+//        i <- i + 1
+//    endwhile
+//endprogram

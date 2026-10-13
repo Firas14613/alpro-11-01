@@ -15,3 +15,21 @@ func main () {
 	rataRata = float64(jumlahJam) / float64(n)
 	fmt.Printf("%3f\n", rataRata)
 }
+
+//program HitungRataRata
+//kamus
+//    n, jam, i, jumlahJam : integer
+//    rataRata : real
+//
+//algoritma
+//    jumlahJam <- 0
+//    input(n)
+//
+//    for i <- 0 to n-1 do
+//        input(jam)
+//        jumlahJam <- jumlahJam + jam
+//    endfor
+//
+//    rataRata <- jumlahJam / n
+//    output(rataRata)
+//endprogram
