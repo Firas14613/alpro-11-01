@@ -8,7 +8,7 @@ func main() {
 	var pass, i int
 
 	for i != 3 && login == false {
-		fmt.Println("Masukkan Password ATM: ")
+		fmt.Print("Masukkan Password ATM: ")
 		fmt.Scan(&pass)
 
 		if pass == 1234 {
